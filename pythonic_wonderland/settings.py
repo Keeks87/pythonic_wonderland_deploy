@@ -48,7 +48,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Local apps
+    'blog',
+    'playground',
     'portfolio',
+    'qna',
+    'tutorials',
+
+    # Third-party apps
     'storages',
 ]
 
