@@ -49,3 +49,4 @@ Since running user-submitted code can be dangerous, it's crucial to avoid execut
 - Add back buttons for detailed pages
 - Links to open in new tab
 - Update portfolio
+- Social Icons on blog to share post
