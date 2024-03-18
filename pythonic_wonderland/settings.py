@@ -158,6 +158,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
 
+# AWS Bucket settings
 AWS_STORAGE_BUCKET_NAME = 'pythonic-wonderland-bucket'
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
