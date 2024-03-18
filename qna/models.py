@@ -18,7 +18,7 @@ class Question(models.Model):
     created_date = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
-        return self.title
+        return str(self.title)
 
 class Answer(models.Model):
     """An answer to a question on the Q&A site.

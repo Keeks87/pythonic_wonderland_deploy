@@ -20,7 +20,7 @@ class Tutorial(models.Model):
     updated_date = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.title
+        return str(self.title)
 
 class Section(models.Model):
     """ A section is a subtopic within a tutorial.
@@ -34,4 +34,4 @@ class Section(models.Model):
     content = models.TextField()
 
     def __str__(self):
-        return self.title
+        return str(self.title)
